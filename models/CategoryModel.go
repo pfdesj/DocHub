@@ -7,7 +7,7 @@ import (
 	"github.com/TruthHun/DocHub/helper"
 )
 
-//文档分类
+//文档分类 test
 type Category struct {
 	Id     int    `orm:"column(Id)"`
 	Pid    int    `orm:"default(0);column(Pid)"`           //父类ID【Pid为0时的id为频道Id(chanel_id)】
